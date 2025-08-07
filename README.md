@@ -10,7 +10,7 @@ Nationalité: Mexicaine | Visa étudiant 2025
 
 
 
-<img src="foto.jpg" alt="Profile Picture" width="1010" height="220">
+<img src="foto.jpg" alt="Profile Picture" width="110" height="220">
 
 
 ## Objectif Professionnel
