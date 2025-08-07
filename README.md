@@ -2,7 +2,7 @@
 
 **Alternance en Intelligence Artificielle**
 
-Lille, France | lino_hdz28@hotmail.com | +33 6 78 74 02
+Lille, France | lino_hdz28@hotmail.com
 
 Nationalité: Mexicaine | Visa étudiant 2025
 
