@@ -8,7 +8,6 @@ Nationalité: Mexicaine | Visa étudiant 2025
 
 ---
 
-## Images
 
 ![Profile Picture](foto.jpg)
 
@@ -86,11 +85,11 @@ Universidad Autónoma de Nuevo León, Mexique (2014 - 2019)
 
 ## Plus d'informations
 
-* **Github**: [github.com/LAguirr](https://www.google.com/search?q=https://github.com/LAguirr)
+* **Github**: [github.com/LAguirr](https://github.com/LAguirr)
 
-* **Hackerrank**: [https://www.hackerrank.com/profile/lino_hdz28](https://www.google.com/search?q=https://www.hackerrank.com/profile/lino_hdz28)
+* **Hackerrank**: [https://www.hackerrank.com/profile/lino_hdz28](https://www.hackerrank.com/profile/lino_hdz28)
 
-* **Linkedin**: [www.linkedin.com/in/leonel-aguirre](https://www.google.com/search?q=https://www.linkedin.com/in/leonel-aguirre)
+* **Linkedin**: [www.linkedin.com/in/leonel-aguirre](https://www.linkedin.com/in/leonel-aguirre)
 
 * **Kaggle**: <https://www.kaggle.com/megalino111>
 
