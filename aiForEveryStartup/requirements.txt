@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+alembic
+pydantic
+psycopg2-binary
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+celery[redis]
+redis
+python-dotenv
