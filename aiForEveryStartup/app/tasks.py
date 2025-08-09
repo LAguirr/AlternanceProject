@@ -12,7 +12,7 @@ celery_app.conf.task_routes = {"app.tasks.train_task": {"queue": "training"}}
 # Import here to avoid circular imports at top-level
 from .database import SessionLocal
 from .crud import create_model_entry, get_dataset
-from .services.train import train_linear_regression
+from .services.trainer import train_linear_regression
 
 @celery_app.task(bind=True)
 def train_task(self, user_id: int, dataset_id: int, target_col: str, model_name: str = "linear_regression"):

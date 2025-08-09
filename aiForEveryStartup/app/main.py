@@ -5,11 +5,15 @@ from sqlalchemy.orm import Session
 from .database import SessionLocal, engine
 from . import models, crud, schemas
 from .tasks import train_task
+from .api import datasets
+
 
 # Crear tablas (MVP: create_all)
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="ML Platform MVP")
+app = FastAPI(title="IA para PYMES - API")
+app.include_router(datasets.router)
+
 
 def get_db():
     db = SessionLocal()
@@ -17,6 +21,11 @@ def get_db():
         yield db
     finally:
         db.close()
+
+@app.get('/')
+def root():
+    return {'ok': True}
+
 
 @app.post("/datasets/upload")
 async def upload_dataset(file: UploadFile = File(...), db: Session = Depends(get_db)):
